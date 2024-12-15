@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from typing import List
 
 # Inicializar Firebase Admin SDK
-cred = credentials.Certificate('C:/Users/OVALTECH/Desktop/fastapi-firebase-api/config/sistema-turismo-24169-firebase-adminsdk-fhe9j-2ea146511f.json')
+cred = credentials.Certificate('C:/Users/OVALTECH/Desktop/fastapi-firebase-api/config/sistema-turismo-24169-firebase-adminsdk-fhe9j-c7631afc87.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
